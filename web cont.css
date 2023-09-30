@@ -1,0 +1,123 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Add a background color to the body */
+body{
+    background-image: url(style/gambar.jpg);
+    background-size: cover;
+}
+
+/* Style the navigation bar */
+nav {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    background: none;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style the contact section */
+.kontak {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.kontak-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.kontak-txt {
+    flex: 1;
+    text-align: left;
+}
+
+.kontak-form {
+    flex: 1;
+    text-align: left;
+}
+
+.kontak-txt h2 {
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.kontak-txt span {
+    color: white;
+}
+
+
+.kontak-txt p {
+    color: white;
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+    margin-right: 25px;
+}
+
+
+
+/* Style the contact form */
+.kontak-form form {
+    text-align: left;
+}
+
+.kontak-form input[type="text"],
+.kontak-form input[type="email"],
+.kontak-form textarea {
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 18px;
+    background: #555557;
+    color: #eee;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.kontak-form textarea {
+    resize: none;
+    height: 220px;
+}
+
+.kontak-form .kirim {
+   
+    padding: 14px 28px;
+    background: #e97aeb;
+    border-radius: 40px;
+}
+
+.kontak a{
+    width: 40px;
+    height: 40px;
+}
+
+h2{
+    color: #e97aeb;
+}
+.kontak-txt a{
+    color: #e97aeb;
+    margin-left: 5px;
+}
